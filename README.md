@@ -6,7 +6,7 @@
   <p align="center">
     A simple ecommerce made with NextJs!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://tech-ecommerce-project.vercel.app">View Demo</a>
   </p>
 </div>
 <br />
