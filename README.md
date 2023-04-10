@@ -1,3 +1,16 @@
+<div align="center">
+
+  <h3 align="center">Tech Ecommerce</h3>
+  <br />
+
+  <p align="center">
+    A simple ecommerce made with NextJs!
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+  </p>
+</div>
+<br />
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
