@@ -2,7 +2,6 @@ import {useEffect, useState} from "react";
 import Product from "../components/Product";
 import {initMongoose} from "../lib/mongoose";
 import {findAllProducts} from "./api/products";
-import Footer from "../components/Footer";
 import Layout from "../components/Layout";
 
 export default function Home({products}) {
@@ -23,7 +22,7 @@ export default function Home({products}) {
             {products.find(p => p.category === categoryName) && (
               <div>
                 <h2 className="text-2xl py-5 capitalize">{categoryName}</h2>
-                <div className="flex -mx-5 overflow-x-auto snap-x scrollbar-hide">
+                <div className="flex justify-between -mx-5 overflow-x-auto snap-x scrollbar-hide">
                   {products.filter(p => p.category === categoryName).map(productInfo => (
                     <div key={productInfo._id} className="px-5 snap-start">
                       <Product {...productInfo} />
